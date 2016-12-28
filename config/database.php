@@ -118,7 +118,7 @@ return [
             'host' => env($dom.'_HOST', 'localhost'),
             'port' => env($dom.'_PORT', '5432'),
             'database' => 'foro_tests',
-            'username' => env('MYSQL_USERNAME' , env($dom.'_USERNAME', 'forge')),
+            'username' => env('MYSQL_USER' , env($dom.'_USERNAME', 'forge')),
             'password' => env('MYSQL_PASSWORD' , env($dom.'_PASSWORD', '')),
             'charset' => 'utf8',
             'prefix' => '',

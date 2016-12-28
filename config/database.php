@@ -114,7 +114,7 @@ return [
             'sslmode' => 'prefer',
         ],
         'pgsql_tests' => [
-            'driver' => 'pgsql_tests',
+            'driver' => 'pgsql',
             'host' => env($dom.'_HOST', 'localhost'),
             'port' => env($dom.'_PORT', '5432'),
             'database' => 'foro_tests',

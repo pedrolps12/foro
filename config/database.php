@@ -117,7 +117,7 @@ return [
             'driver' => 'pgsql_tests',
             'host' => env($dom.'_HOST', 'localhost'),
             'port' => env($dom.'_PORT', '5432'),
-            'database' => env($dom.'_DATABASE_TESTS','foro_tests'),
+            'database' => 'foro_tests',
             'username' => env($dom.'_USERNAME', 'forge'),
             'password' => env($dom.'_PASSWORD', ''),
             'charset' => 'utf8',
